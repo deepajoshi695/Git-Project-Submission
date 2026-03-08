@@ -3,6 +3,7 @@ markdown
 
 A beginner-friendly Python game developed to demonstrate **Git Local Repository** management, **branching strategies**, and **conflict resolution**.
 
+---
 
 ## 📂 Project Structure
 ```text
@@ -36,14 +37,6 @@ Git-Project-Submission/
         - The Conflict: Both developer1 and developer2 modified the version/prompt line in the main logic at the same time.
         - The Resolution: I manually resolved the conflict in VS Code, choosing the latest functional code from developer2 to ensure a smooth gameplay experience.
 
-<<<<<<< HEAD
-🚀 How to Run the Project
-    - Ensure you have Python 3.x installed.
-    - Open your terminal and navigate to the project folder.
-    - Run the following command:
-        bash
-        python game.py
-=======
 ## 🚀 How to Run the Project
     1. **Prerequisites**: Ensure you have [uv](https://github.com) or **Python 3.x** installed.
     2. **Open Terminal**: Navigate to the `Git-Project-Submission` folder.
@@ -51,7 +44,6 @@ Git-Project-Submission/
     ```bash
     uv run game.py
     (Alternatively, use python game.py if uv is not installed).
->>>>>>> main
 
 🛠️ Skills & Techniques Used
     - Languages: Python
