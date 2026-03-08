@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment variables
+.env
+
+# VS Code settings (optional, keeps your personal editor settings local)
+.vscode/
