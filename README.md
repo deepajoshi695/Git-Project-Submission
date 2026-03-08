@@ -3,7 +3,6 @@ markdown
 
 A beginner-friendly Python game developed to demonstrate **Git Local Repository** management, **branching strategies**, and **conflict resolution**.
 
----
 
 ## 📂 Project Structure
 ```text
