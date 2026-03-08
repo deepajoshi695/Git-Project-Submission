@@ -41,8 +41,7 @@ if __name__ == "__main__":
         current_player = "X"
         game_active = True
         
-        print("--- Dev1 Version ---")
-
+        print("--- Ready to play Tic Tac Toe? (Dev2) ---")
 
         while game_active:
             display_board(board)
