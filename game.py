@@ -28,7 +28,7 @@ def get_move(player, board):
         move = int(input(f"Player {player}, enter position (0-8): "))
         if 0 <= move <= 8 and board[move] == ' ':
             return move
-        print("Position already taken, choose different position.")
+        print("Invalid Option! Choose Again")
         return None
     except ValueError:
         print("Enter a number!")
