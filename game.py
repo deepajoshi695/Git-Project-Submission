@@ -28,7 +28,7 @@ def get_move(player, board):
         move = int(input(f"Player {player}, enter position (0-8): "))
         if 0 <= move <= 8 and board[move] == ' ':
             return move
-        print("Invalid Choice! Choose Again")
+        print("Invalid Option! Choose Again")
         return None
     except ValueError:
         print("Enter a number!")
@@ -41,7 +41,7 @@ if __name__ == "__main__":
         current_player = "X"
         game_active = True
         
-        print("--- Ready to play Tic Tac Toe? (Dev2) Version---")
+        print("--- Ready to play Tic Tac Toe? (Dev2) Version ---")
 
         while game_active:
             display_board(board)
